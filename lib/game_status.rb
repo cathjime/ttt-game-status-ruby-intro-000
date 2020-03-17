@@ -56,7 +56,7 @@ def over?(board)
   full?(board) || won?(board)
 end
 
-def winner?(board)
+def winner(board)
   if won?(board)
     binding.pry
     true
