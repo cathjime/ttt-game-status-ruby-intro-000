@@ -55,3 +55,6 @@ end
 def over?(board)
   full?(board) || won?(board)
 end
+
+def winner?(board)
+end
