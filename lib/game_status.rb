@@ -53,5 +53,5 @@ def draw?(board)
 end
 
 def over?(board)
-  full?(board) 
+  full?(board) || draw?(board)
 end
